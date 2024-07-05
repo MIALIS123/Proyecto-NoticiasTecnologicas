@@ -1,33 +1,36 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #000000;
     color: #ffffff;
-    font-family: "Oswald", sans-serif ;
+    font-family: "Oswald", sans-serif;
     padding: 0 1.5em;
     line-height: 1.6;
 }
 
 
 .contenedor {
- width: 1400px;
-    
+    width: 1400px;
+
 }
+
 .navegacion-principal {
     padding: 1.5em;
 
 }
+
 .navegacion-principal__menu {
     list-style: none;
     display: flex;
     flex-direction: row;
     gap: 20px;
-    justify-content:center;
+    justify-content: center;
     align-content: center;
 }
-a{
+
+a {
     color: white;
 }
 
@@ -51,15 +54,17 @@ a{
     grid-template-columns: repeat(1, 1fr);
     text-align: center;
 }
+
 .boton {
-    position:static;
+    position: static;
     background-color: rgb(21, 26, 30);
     color: #ffffff;
     margin: 50px auto;
     padding: 0.6em;
-    border: 1px solid white ;
-    
+    border: 1px solid white;
+
 }
+
 .boton:hover {
     background-color: rgb(4, 37, 52);
     transition: 0.5s;
@@ -69,9 +74,10 @@ a{
     -o-transition: 0.5s;
 }
 
- /* TARJETA DE NOTICIAS */
 
- .tarjetas-noticias {
+/* TARJETA DE NOTICIAS */
+
+.tarjetas-noticias {
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -81,8 +87,112 @@ a{
 
 
 img {
-   width: 337px;
-   height: 270px ;
-   position: relative;
+    width: 337px;
+    height: 270px;
+    position: relative;
 
+}
+
+/* <!-- Banner de Tarjetas 1 --> */
+
+.banner-tarjetas-uno__contenido {
+    background-image: url(/Assets/tech-red.jpg);
+    margin-top: 25px;
+
+}
+
+.banner-tarjetas-uno__contenido {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    text-align: center;
+}
+
+/* Segunda Parte del proyecto */
+
+
+/* <!-- TARJETAS DE NOTICIAS --> */
+
+.tarjetas-noticias2 {
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+
+}
+
+.img2 {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* <!-- Banner de Tarjetas 2--> */
+
+.banner-tarjetas-dos {
+    background-image: url(/Assets/Image-five.jpg);
+    background-size: cover;
+    margin-bottom: 25px;
+}
+
+.banner-tarjetas-dos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 7%;
+    align-content: center;
+    text-align: center;
+
+}
+
+/* sección Social */
+
+.social>p {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    bottom: 10px;
+
+}
+
+.social__enlaces {
+    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+/* <!-- Enlaces de Pie de Página --> */
+
+.enlaces-pie{
+    margin-top: 20px;
+    background-color: rgb(48, 49, 65);
+}
+
+
+.enlaces-pie__contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+
+
+}
+
+
+/* <!-- Pie de Página --> */
+
+.pie {
+    background-color:  rgb(48, 49, 65) ;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    align-content: center;
+    text-align: center;
 }

@@ -1,5 +1,5 @@
 # Proyecto-NoticiasTecnológicas
-
+   Todo lo que hice en Css.
     1-Para la clase contenedor(nav) le coloque esta medida para que toda la información y propiedades quepan y fui probando pixeles.
 
 .contenedor {
@@ -82,3 +82,35 @@ img {
    position: relative;
 
 }
+
+
+/* Segunda Parte del proyecto */
+
+
+/* <!-- TARJETAS DE NOTICIAS --> */
+
+1.Utilice tarjetas_noticias2 y le agregue el 2 a la clase para no justar el mismo código de las primeras tarjetas de noticias.
+2.Utilice flex y row por ir en fila el contenido.
+3.Le agregue la clase img2 a las imágenes para que no tengan las mismas medidas de las imágenes anteriores.
+
+/* <!-- Banner de Tarjetas 2--> */
+
+1.Agregue la imagen en css y le agregue margin para el espacio de arriba y utilice grid y luego alinee con sus respectivas propiedades.
+
+<!-- /* sección Social */ -->
+
+1.Especifique la p en la clase social para que solo moviera con flex el texto.
+2.Luego utilice la clase de los iconos y utilice flex , les di tamaño y centre los iconos.
+
+
+/* <!-- Enlaces de Pie de Página --> */
+
+1.Le puse margin para el espacio de arriba y background-color por su fondo.
+
+2.En los enlaces utilice wrap para que los esparciera 2 en 2 y luego space-around para el espacio entre ellos.
+
+/* <!-- Pie de Página --> */
+
+1.Agregue su color respectivo.
+2.Utilice grid y luego lo fraccione en 1.
+3.Luego centre con sus respectivas propiedades.
